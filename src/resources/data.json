@@ -1,0 +1,14 @@
+{
+    "IdEmpresa": "999",
+    "IdCobrador": "XXX",
+    "Carteira": [
+        "IdCarteira": "999",
+        "NomeCarteira": "XXX",
+        "TemplateMessageList": "Oi esteja em dia com seu débito junto a ${NomeCarteira}",
+        "TemplateMessageUnit": "Oi ${NomeDevedor} esteja em dia com seu débito junto a ${NomeCarteira}",
+        "devedores: [{
+        "IdDevedor": "999",
+        "NomeDevedor": "XXX",
+        "Telefones": ["999", "999", "999"]
+    }]]
+}
