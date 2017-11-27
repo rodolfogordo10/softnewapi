@@ -1,12 +1,12 @@
 import express from 'express';
-import companyRouter from './company-routes';
-import salerRouter from './saler-routes';
-import salerBookRouter from './saler-book-routes';
+import empresaRouter from './empresa-routes';
+import colaboradorRouter from './colaborador-routes';
+import agendaColaboradorRouter from './agenda-colaborador-routes';
 
 const router = express.Router();
 
 router.get('/', (req, res) => res.send('hello world'));
-router.use('/company', companyRouter);
-router.use('/saler', salerRouter);
-router.use('/saler-book/', salerBookRouter);
+router.use('/empresa', empresaRouter);
+router.use('/colaborador', colaboradorRouter);
+router.use('/agenda-colaborador/', agendaColaboradorRouter);
 export default router;

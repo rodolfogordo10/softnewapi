@@ -21,23 +21,7 @@ const config = {
         //         db: { safe: true }
         //     }
         // },
-    },
-    test: {
-        mongo: {
-            uri: 'mongodb://localhost/code-challenge-test',
-            options: {
-                debug: false
-            }
-        }
-    },
-    development: {
-        mongo: {
-            uri: 'mongodb://localhost/code-challenge',
-            options: {
-                debug: false
-            }
-        }
-    },
+    }
 };
 
 

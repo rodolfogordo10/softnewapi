@@ -6,7 +6,6 @@ import firebaseContants  from '../constants/firebase-constants';
 // Initialize the default app
 const defaultApp = admin.initializeApp(firebaseContants);
 
-
 // Retrieve services via the defaultApp variable...
 const defaultAuth = defaultApp.auth;
 const defaultDatabase = defaultApp.database;

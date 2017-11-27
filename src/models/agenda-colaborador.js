@@ -1,5 +1,5 @@
-class SalerBook {
-    constructor({ idEmpresa, idCobrador, idCarteira, nomeCarteira, devedores, templateMessageByUser, templateMessageCarteira }) {
+class AgendaColaborador {
+    constructor({ idEmpresa, idColaborador, idCarteira, nomeCarteira, devedores, templateMessageByUser, templateMessageCarteira }) {
         this.idCarteira = idCarteira;
         this.nomeCarteira = nomeCarteira;
         this.devedores = devedores;
@@ -8,4 +8,4 @@ class SalerBook {
     }
 }
 
-export default SalerBook;
+export default AgendaColaborador;

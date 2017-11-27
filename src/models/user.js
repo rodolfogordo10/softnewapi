@@ -1,11 +1,11 @@
 import bcrypt from 'bcryptjs';
 
 class User {
-    constructor({displayName, email, password, uid = null}) {
+    constructor({displayName, password, uid}) {
         this.displayName = displayName;
         this.password = password;
-        this.email = email;
         this.emailVerified = false;
+        this.disabled = false;
         this.uid = uid;
     }
 
