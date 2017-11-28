@@ -1,5 +1,3 @@
-// server.js
-
 import setupApp from './src/app';
 import serverConfig from './src/config/config';
 
